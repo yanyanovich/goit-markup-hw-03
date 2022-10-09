@@ -259,6 +259,8 @@ ul.portfolio-tabs {
   background-color: #f5f4fa;
   cursor: pointer;
   padding: 6px 22px;
+  border-radius: 4px;
+  border: 0;
 }
 .tabs-button button:hover,
 .tabs-button button:focus {
