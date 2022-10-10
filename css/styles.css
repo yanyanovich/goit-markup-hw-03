@@ -95,6 +95,8 @@ ul.header-information {
 }
 .header-information .header-mail a,
 .header-information .header-phone a {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -143,6 +145,9 @@ ul.header-information {
 }
 /* end hero-section section home page */
 /* start benefits cection */
+section.benefits-section {
+  padding-bottom: 0;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -172,7 +177,6 @@ ul.header-information {
 }
 .benefits-list p {
   margin-top: 10px;
-  max-width: 270px;
   line-height: 1.7;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -296,8 +300,6 @@ ul.portfolio-items {
 /* footer srart */
 .footer {
   background-color: #2f303a;
-}
-.footer-container {
   padding: 60px 0;
 }
 a.header-logo.footer {
