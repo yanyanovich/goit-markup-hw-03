@@ -276,8 +276,13 @@ ul.portfolio-tabs {
 ul.portfolio-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 30px;
+}
+li.portfolio-item {
+  flex-basis: calc((100%-60px) / 3);
+}
+li.portfolio-item img {
+  width: 100%;
 }
 .portfolio-text {
   border: 1px solid #eeeeee;
